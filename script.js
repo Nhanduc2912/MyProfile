@@ -57,7 +57,7 @@ function login() {
   if (password === vaidipassword && username === vaidiuser) {
     alertLoginOK(); // ✅ Thông báo thành công
     setTimeout(() => {
-      location = "./HTML/main.html";
+      location = "main.html";
     }, 2000);
   } else {
     alertLoginCancal(); // ❌ Thông báo thất bại
