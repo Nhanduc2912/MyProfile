@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/CSS/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <title>Đăng nhập</title>
+  </head>
+  <body>
+    <div class="Container">
+      <h2>Đăng nhập</h2>
+      <div class="content">
+        <div class="text-group">
+          <i class="fa-solid fa-user"></i>
+          <input
+            type="text"
+            name="user"
+            id="user"
+            required
+            placeholder="user"
+          />
+        </div>
+        <div class="text-group">
+          <i class="fa-solid fa-lock"></i>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            required
+            placeholder="password"
+          />
+        </div>
+        <button id="btn-submit" onclick="login()">Đăng nhập</button>
+      </div>
+      <h3>Mạng xã hội</h3>
+      <div class="mxh">
+        <a
+          href="https://www.facebook.com/ucnguyen.26984"
+          id="fb"
+          target="_blank"
+        >
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+        <a
+          href="https://www.tiktok.com/@applemewme0"
+          id="tiktok"
+          target="_blank"
+        >
+          <i class="fa-brands fa-tiktok"></i>
+        </a>
+        <a
+          href="https://www.youtube.com/@ucNguyen-zw9fs"
+          id="youtube"
+          target="_blank"
+        >
+          <i class="fa-brands fa-youtube"></i>
+        </a>
+      </div>
+      <p>&copy; By Ducnguyener</p>
+    </div>
+    <div class="toast" id="toast">
+      <i class="fas fa-check-circle"></i>
+      <span>Đăng nhập thành công!</span>
+    </div>
+    <div class="cancal" id="cancal">
+      <i class="fa-solid fa-xmark"></i>
+      <span>Đăng nhập thất bại!</span>
+      <span>Vui lòng kiểm tra lại PASSWORD hoặc USER</span>
+    </div>
+  </body>
+  <!-- tsParticles CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
+  <script src="/JAVASCRIPT/script.js"></script>
+</html>

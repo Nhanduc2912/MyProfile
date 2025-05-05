@@ -1,0 +1,225 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+  font-family: sans-serif;
+}
+.sb-container {
+  display: flex;
+  min-height: 100vh;
+  font-family: "Segoe UI", sans-serif;
+  z-index: 1;
+}
+
+/* Sidebar */
+.sb-sidebar {
+  width: 250px;
+  background: black;
+  color: #fff;
+  transition: width 0.3s ease;
+  padding: 20px;
+  position: relative;
+  z-index: 1;
+}
+
+.sb-logo {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.sb-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.sb-link {
+  text-decoration: none;
+  color: #e0f7fa;
+  padding: 12px 20px;
+  border-radius: 8px;
+  transition: background 0.2s;
+}
+
+.sb-link:hover,
+.sb-link.active {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* Toggle Button */
+.sb-toggle {
+  position: absolute;
+  left: 20px;
+  bottom: 10px;
+  background: #b4b9b979;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.sb-toggle:hover {
+  background: #8d9694;
+}
+.sb-sidebar.collapsed {
+  width: 60px; /* hoặc 0 nếu muốn ẩn hoàn toàn */
+}
+
+.sb-sidebar.collapsed .sb-nav,
+.sb-sidebar.collapsed .sb-logo {
+  display: none;
+}
+.actical {
+  width: 36%;
+  height: 860px;
+
+  z-index: 1;
+  color: #fff;
+  background-color: #37383875;
+  margin: 0 auto;
+  margin-top: 40px;
+  border-radius: 36px;
+}
+.avt {
+  width: 240px;
+  height: auto;
+
+  padding: 20px;
+  margin: 0 auto;
+  margin-top: 50px;
+  text-align: center;
+  border-radius: 55px;
+}
+.avt > img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+}
+#phonenumber {
+  color: #cccc;
+  font-size: 15px;
+}
+h1 {
+  font-size: 29px;
+}
+h2 {
+  width: 150px;
+  height: auto;
+  background-color: #8d969436;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 40px;
+  box-shadow: 0 0 15px rgba(71, 69, 69, 0.363);
+  text-align: center;
+}
+.content {
+  padding: 20px;
+  max-width: 100%;
+}
+.youtube-row {
+  display: flex;
+  width: 76%;
+  height: auto;
+  padding: 10px;
+  border: 3px solid #fff;
+  margin: 0 auto;
+  border-radius: 50px;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+.youtube-row .youtube {
+  width: 100%;
+  text-align: center;
+}
+.youtube-row > i {
+  width: 3%;
+  font-size: 30px;
+  color: red;
+  transform: translateY(20%);
+}
+a {
+  text-decoration: none;
+}
+.tiktok-row {
+  display: flex;
+  width: 76%;
+  height: auto;
+  padding: 10px;
+  border: 3px solid #fff;
+  margin: 0 auto;
+  border-radius: 50px;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+.tiktok-row .tiktok {
+  width: 100%;
+  text-align: center;
+}
+.tiktok-row > i {
+  width: 3%;
+  font-size: 30px;
+  color: #fff;
+  transform: translateY(20%);
+}
+.facebook-row {
+  display: flex;
+  width: 76%;
+  height: auto;
+  padding: 10px;
+  border: 3px solid #fff;
+  margin: 0 auto;
+  border-radius: 50px;
+  color: #ffffff;
+  transition: all 0.3s ease;
+}
+.facebook-row .facebook {
+  width: 100%;
+  text-align: center;
+}
+.facebook-row > i {
+  width: 3%;
+  font-size: 30px;
+  color: blue;
+  transform: translateY(20%);
+}
+.github-row {
+  display: flex;
+  width: 76%;
+  height: auto;
+  padding: 10px;
+  border: 3px solid #fff;
+  margin: 0 auto;
+  border-radius: 50px;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+.github-row .github {
+  width: 100%;
+  text-align: center;
+}
+.github-row > i {
+  width: 3%;
+  font-size: 30px;
+  color: rgb(240, 240, 247);
+  transform: translateY(20%);
+}
+.row {
+  padding: 10px 0px;
+}
+.youtube-row:hover,
+.facebook-row:hover,
+.github-row:hover,
+.tiktok-row:hover {
+  transform: scale(1.05);
+}
+h5 {
+  text-align: center;
+  font-size: 15px;
+}

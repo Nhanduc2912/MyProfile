@@ -1,0 +1,92 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+.container {
+  height: auto;
+  padding: 20px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+  padding-top: 0;
+}
+.head {
+  margin: 0 auto;
+  max-width: 500px;
+}
+.content {
+  margin: 0 auto;
+}
+h4 {
+  width: 100%;
+  font-size: 17px;
+  color: #fff;
+  text-align: center;
+  padding: 10px 15px 10px 10px;
+  border-bottom: 4px solid #fff;
+}
+h5 {
+  text-align: center;
+  color: #fff;
+  font-size: 15px;
+}
+p {
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+}
+.avt {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 30px;
+  transform: translateX(0%);
+}
+.avt > img {
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  border: 0;
+}
+.content-note {
+  color: #fff;
+  max-width: 350px;
+  margin: 0 auto;
+  justify-content: center;
+  font-weight: bolder;
+}
+.content-social {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 25%;
+}
+.content-social-youtube {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  width: 400px;
+  height: 30px;
+  padding: 12px;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  color: red;
+  display: flex;
+}
+.path {
+  text-align: left;
+}
+.a {
+  text-align: center;
+}
+i {
+  font-size: 30px;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+}
