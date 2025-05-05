@@ -1,14 +1,3 @@
-document.addEventListener("DOMContentLoaded", function () {
-  const isMobile =
-    /iPhone|iPad|iPod|Android|webOS|BlackBerry|IEMobile|Opera Mini/i.test(
-      navigator.userAgent
-    );
-
-  if (isMobile) {
-    window.location.href = "main-mobile.html";
-  }
-});
-
 tsParticles.load("tsparticles", {
   fullScreen: { enable: true },
   particles: {
@@ -40,13 +29,6 @@ tsParticles.load("tsparticles", {
   background: {
     color: "#111111",
   },
-});
-
-const toggleButton = document.getElementById("toggleSidebar");
-const sidebar = document.querySelector(".sb-sidebar");
-
-toggleButton.addEventListener("click", () => {
-  sidebar.classList.toggle("collapsed");
 });
 
 setInterval(() => {
