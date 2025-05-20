@@ -40,7 +40,7 @@ setInterval(() => {
   }
 }, 1000); // mỗi 5 giây
 const text =
-  "Tao là kẻ thống trị loài bò, hãy tin rằng loài bò biết bay đi hỡi những tín đồ của tao";
+  "Hello, it's my profile";
 let i = 0;
 function typeEffect() {
   if (i < text.length) {
